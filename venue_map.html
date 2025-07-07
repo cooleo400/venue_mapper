@@ -1,0 +1,1801 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_38b64f8c169e28ece6836341b7b957d9 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_38b64f8c169e28ece6836341b7b957d9" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_38b64f8c169e28ece6836341b7b957d9 = L.map(
+                "map_38b64f8c169e28ece6836341b7b957d9",
+                {
+                    center: [39.8283, -98.5795],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 4,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_a7e6971248e32014876b2652c82daa43 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_a7e6971248e32014876b2652c82daa43.addTo(map_38b64f8c169e28ece6836341b7b957d9);
+        
+    
+            var marker_2b9600cded32f4ba8735fe2372856648 = L.marker(
+                [39.936808, -120.9471224],
+                {
+}
+            ).addTo(map_38b64f8c169e28ece6836341b7b957d9);
+        
+    
+        var popup_18f4fd79254ff0b06530ae022d4f79ce = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_00487aa76822664a857efb61301dbdb5 = $(`<div id="html_00487aa76822664a857efb61301dbdb5" style="width: 100.0%; height: 100.0%;"><b>High Sierra Festival</b><br>Quincy, California</div>`)[0];
+                popup_18f4fd79254ff0b06530ae022d4f79ce.setContent(html_00487aa76822664a857efb61301dbdb5);
+            
+        
+
+        marker_2b9600cded32f4ba8735fe2372856648.bindPopup(popup_18f4fd79254ff0b06530ae022d4f79ce)
+        ;
+
+        
+    
+    
+            marker_2b9600cded32f4ba8735fe2372856648.bindTooltip(
+                `<div>
+                     High Sierra Festival
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_4b1b407574e15bfc240b8b744ccba3c1 = L.marker(
+                [43.9166529, -69.9659438],
+                {
+}
+            ).addTo(map_38b64f8c169e28ece6836341b7b957d9);
+        
+    
+        var popup_37b3c22c0828b6069e6364570789b8d3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4d8426039b28dc65205117453233e889 = $(`<div id="html_4d8426039b28dc65205117453233e889" style="width: 100.0%; height: 100.0%;"><b>Thomas Point Beach Bluegrass Festival</b><br>Brunswick, Maine</div>`)[0];
+                popup_37b3c22c0828b6069e6364570789b8d3.setContent(html_4d8426039b28dc65205117453233e889);
+            
+        
+
+        marker_4b1b407574e15bfc240b8b744ccba3c1.bindPopup(popup_37b3c22c0828b6069e6364570789b8d3)
+        ;
+
+        
+    
+    
+            marker_4b1b407574e15bfc240b8b744ccba3c1.bindTooltip(
+                `<div>
+                     Thomas Point Beach Bluegrass Festival
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_19dc8bc4b3e07dcd8a59732a4169ad38 = L.marker(
+                [42.2287388, -73.3622251],
+                {
+}
+            ).addTo(map_38b64f8c169e28ece6836341b7b957d9);
+        
+    
+        var popup_dbceda58dbecdf21f334fd762f12f31f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2ef64ce3bfedb569b346b7b91bbec67d = $(`<div id="html_2ef64ce3bfedb569b346b7b91bbec67d" style="width: 100.0%; height: 100.0%;"><b>Guthrie Center</b><br>Great Barrington, Massachusetts</div>`)[0];
+                popup_dbceda58dbecdf21f334fd762f12f31f.setContent(html_2ef64ce3bfedb569b346b7b91bbec67d);
+            
+        
+
+        marker_19dc8bc4b3e07dcd8a59732a4169ad38.bindPopup(popup_dbceda58dbecdf21f334fd762f12f31f)
+        ;
+
+        
+    
+    
+            marker_19dc8bc4b3e07dcd8a59732a4169ad38.bindTooltip(
+                `<div>
+                     Guthrie Center
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_5d7a35b505fb792cf74124f412918344 = L.marker(
+                [42.1671269, -73.4439496],
+                {
+}
+            ).addTo(map_38b64f8c169e28ece6836341b7b957d9);
+        
+    
+        var popup_4be685e6aee3b8b5491cc321fc5e1088 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2a1ed86b4827f520c641fe932cf5686b = $(`<div id="html_2a1ed86b4827f520c641fe932cf5686b" style="width: 100.0%; height: 100.0%;"><b>Egremont Barn</b><br>Egremont, Massachusetts</div>`)[0];
+                popup_4be685e6aee3b8b5491cc321fc5e1088.setContent(html_2a1ed86b4827f520c641fe932cf5686b);
+            
+        
+
+        marker_5d7a35b505fb792cf74124f412918344.bindPopup(popup_4be685e6aee3b8b5491cc321fc5e1088)
+        ;
+
+        
+    
+    
+            marker_5d7a35b505fb792cf74124f412918344.bindTooltip(
+                `<div>
+                     Egremont Barn
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_03437f088b6a50812067ddb4fb2cfd89 = L.marker(
+                [42.3323727, -73.0837627],
+                {
+}
+            ).addTo(map_38b64f8c169e28ece6836341b7b957d9);
+        
+    
+        var popup_3dcf87527afe90a58765322bfc47b952 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7bd3b71695213316fd5b77d4bffa7083 = $(`<div id="html_7bd3b71695213316fd5b77d4bffa7083" style="width: 100.0%; height: 100.0%;"><b>Dreamaway Lodge</b><br>Becket, Massachusetts</div>`)[0];
+                popup_3dcf87527afe90a58765322bfc47b952.setContent(html_7bd3b71695213316fd5b77d4bffa7083);
+            
+        
+
+        marker_03437f088b6a50812067ddb4fb2cfd89.bindPopup(popup_3dcf87527afe90a58765322bfc47b952)
+        ;
+
+        
+    
+    
+            marker_03437f088b6a50812067ddb4fb2cfd89.bindTooltip(
+                `<div>
+                     Dreamaway Lodge
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_79246df972ae78f68db4d982690d89b6 = L.marker(
+                [42.3656347, -71.1040018],
+                {
+}
+            ).addTo(map_38b64f8c169e28ece6836341b7b957d9);
+        
+    
+        var popup_4647826c478b34f16cd909b8fcf0f288 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d9051774ac7ca0d34ca8bd497c209ad6 = $(`<div id="html_d9051774ac7ca0d34ca8bd497c209ad6" style="width: 100.0%; height: 100.0%;"><b>Bluegrass Tuesdays / Lilly P's</b><br>Cambridge, Massachusetts</div>`)[0];
+                popup_4647826c478b34f16cd909b8fcf0f288.setContent(html_d9051774ac7ca0d34ca8bd497c209ad6);
+            
+        
+
+        marker_79246df972ae78f68db4d982690d89b6.bindPopup(popup_4647826c478b34f16cd909b8fcf0f288)
+        ;
+
+        
+    
+    
+            marker_79246df972ae78f68db4d982690d89b6.bindTooltip(
+                `<div>
+                     Bluegrass Tuesdays / Lilly P's
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_a47db3631fcc24b1d8dd1b86e8af41b0 = L.marker(
+                [42.110474, -73.3533365],
+                {
+}
+            ).addTo(map_38b64f8c169e28ece6836341b7b957d9);
+        
+    
+        var popup_80c481172c1754c5ff4dea1b1ed3b5d2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_962a5b274ef4048c2e19ad9998e59253 = $(`<div id="html_962a5b274ef4048c2e19ad9998e59253" style="width: 100.0%; height: 100.0%;"><b>Racebrook Lodge</b><br>Sheffield, Massachusetts</div>`)[0];
+                popup_80c481172c1754c5ff4dea1b1ed3b5d2.setContent(html_962a5b274ef4048c2e19ad9998e59253);
+            
+        
+
+        marker_a47db3631fcc24b1d8dd1b86e8af41b0.bindPopup(popup_80c481172c1754c5ff4dea1b1ed3b5d2)
+        ;
+
+        
+    
+    
+            marker_a47db3631fcc24b1d8dd1b86e8af41b0.bindTooltip(
+                `<div>
+                     Racebrook Lodge
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_0758821529ceec92296fae2bb45e54bf = L.marker(
+                [42.3742245, -71.1200134],
+                {
+}
+            ).addTo(map_38b64f8c169e28ece6836341b7b957d9);
+        
+    
+        var popup_cdecbe8bcf49ce5e1ae4605cbc8b71d7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_af3e535fbde86ef4393868372cf90b5f = $(`<div id="html_af3e535fbde86ef4393868372cf90b5f" style="width: 100.0%; height: 100.0%;"><b>Club Passim</b><br>Cambridge, Massachusetts</div>`)[0];
+                popup_cdecbe8bcf49ce5e1ae4605cbc8b71d7.setContent(html_af3e535fbde86ef4393868372cf90b5f);
+            
+        
+
+        marker_0758821529ceec92296fae2bb45e54bf.bindPopup(popup_cdecbe8bcf49ce5e1ae4605cbc8b71d7)
+        ;
+
+        
+    
+    
+            marker_0758821529ceec92296fae2bb45e54bf.bindTooltip(
+                `<div>
+                     Club Passim
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_d2a9db26dfbe7936d3e101d1ebb48a4b = L.marker(
+                [42.981477, -70.9478343],
+                {
+}
+            ).addTo(map_38b64f8c169e28ece6836341b7b957d9);
+        
+    
+        var popup_7e412fdb93184bbd630c6d6689441dc4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_59a990be74646acc9fed5dcf4a958390 = $(`<div id="html_59a990be74646acc9fed5dcf4a958390" style="width: 100.0%; height: 100.0%;"><b>The Word Barn</b><br>Exeter, New Hampshire</div>`)[0];
+                popup_7e412fdb93184bbd630c6d6689441dc4.setContent(html_59a990be74646acc9fed5dcf4a958390);
+            
+        
+
+        marker_d2a9db26dfbe7936d3e101d1ebb48a4b.bindPopup(popup_7e412fdb93184bbd630c6d6689441dc4)
+        ;
+
+        
+    
+    
+            marker_d2a9db26dfbe7936d3e101d1ebb48a4b.bindTooltip(
+                `<div>
+                     The Word Barn
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_99e956acdd21cb09c001fff93985b2ac = L.marker(
+                [43.0760756, -70.7601996],
+                {
+}
+            ).addTo(map_38b64f8c169e28ece6836341b7b957d9);
+        
+    
+        var popup_47ae8e558ecd21ac2c4733dfa7943dec = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_edf4ea40bdd55ced093175bf436bf416 = $(`<div id="html_edf4ea40bdd55ced093175bf436bf416" style="width: 100.0%; height: 100.0%;"><b>Music Hall Lounge</b><br>Portsmouth, New Hampshire</div>`)[0];
+                popup_47ae8e558ecd21ac2c4733dfa7943dec.setContent(html_edf4ea40bdd55ced093175bf436bf416);
+            
+        
+
+        marker_99e956acdd21cb09c001fff93985b2ac.bindPopup(popup_47ae8e558ecd21ac2c4733dfa7943dec)
+        ;
+
+        
+    
+    
+            marker_99e956acdd21cb09c001fff93985b2ac.bindTooltip(
+                `<div>
+                     Music Hall Lounge
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_527bbdadf2eeb8d79eec15c161267f36 = L.marker(
+                [-18.9161876, -48.2548898],
+                {
+}
+            ).addTo(map_38b64f8c169e28ece6836341b7b957d9);
+        
+    
+        var popup_5c098d3bec8588a50c2a8e4243ab3a4b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bf530b6aa619cd1a51239a333f4c7c0b = $(`<div id="html_bf530b6aa619cd1a51239a333f4c7c0b" style="width: 100.0%; height: 100.0%;"><b>Albert Hall</b><br>nan, New Jersey</div>`)[0];
+                popup_5c098d3bec8588a50c2a8e4243ab3a4b.setContent(html_bf530b6aa619cd1a51239a333f4c7c0b);
+            
+        
+
+        marker_527bbdadf2eeb8d79eec15c161267f36.bindPopup(popup_5c098d3bec8588a50c2a8e4243ab3a4b)
+        ;
+
+        
+    
+    
+            marker_527bbdadf2eeb8d79eec15c161267f36.bindTooltip(
+                `<div>
+                     Albert Hall
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_336bf794e2fe0bf1f3c619452320214e = L.marker(
+                [43.0821793, -73.7853915],
+                {
+}
+            ).addTo(map_38b64f8c169e28ece6836341b7b957d9);
+        
+    
+        var popup_61bbb7d87caaa6370f4be6f08dbe00a0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5bf356c71af17ef2c6c0595674ea76e4 = $(`<div id="html_5bf356c71af17ef2c6c0595674ea76e4" style="width: 100.0%; height: 100.0%;"><b>Cock N' Bull</b><br>Saratoga Springs, New York</div>`)[0];
+                popup_61bbb7d87caaa6370f4be6f08dbe00a0.setContent(html_5bf356c71af17ef2c6c0595674ea76e4);
+            
+        
+
+        marker_336bf794e2fe0bf1f3c619452320214e.bindPopup(popup_61bbb7d87caaa6370f4be6f08dbe00a0)
+        ;
+
+        
+    
+    
+            marker_336bf794e2fe0bf1f3c619452320214e.bindTooltip(
+                `<div>
+                     Cock N' Bull
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_86927e52df0a3c73618a0cef45985351 = L.marker(
+                [43.237843, -77.061362],
+                {
+}
+            ).addTo(map_38b64f8c169e28ece6836341b7b957d9);
+        
+    
+        var popup_c607d51cc45825629d75d198e0518c83 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a08111c10e50dc486141b61a515c0776 = $(`<div id="html_a08111c10e50dc486141b61a515c0776" style="width: 100.0%; height: 100.0%;"><b>Brantling Bluegrass Festival</b><br>Sodus, New York</div>`)[0];
+                popup_c607d51cc45825629d75d198e0518c83.setContent(html_a08111c10e50dc486141b61a515c0776);
+            
+        
+
+        marker_86927e52df0a3c73618a0cef45985351.bindPopup(popup_c607d51cc45825629d75d198e0518c83)
+        ;
+
+        
+    
+    
+            marker_86927e52df0a3c73618a0cef45985351.bindTooltip(
+                `<div>
+                     Brantling Bluegrass Festival
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_0979baf9b764808b84655c58da2d5430 = L.marker(
+                [43.0804582, -73.7832804],
+                {
+}
+            ).addTo(map_38b64f8c169e28ece6836341b7b957d9);
+        
+    
+        var popup_5254a93e1f72d0c3946df292edd4ef9d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8e561c7a6f4d4f6e58eaa23605c33dcd = $(`<div id="html_8e561c7a6f4d4f6e58eaa23605c33dcd" style="width: 100.0%; height: 100.0%;"><b>Caffe Lena</b><br>Saratoga Springs, New York</div>`)[0];
+                popup_5254a93e1f72d0c3946df292edd4ef9d.setContent(html_8e561c7a6f4d4f6e58eaa23605c33dcd);
+            
+        
+
+        marker_0979baf9b764808b84655c58da2d5430.bindPopup(popup_5254a93e1f72d0c3946df292edd4ef9d)
+        ;
+
+        
+    
+    
+            marker_0979baf9b764808b84655c58da2d5430.bindTooltip(
+                `<div>
+                     Caffe Lena
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_c1ea396dc1c06d2e8e3e0cc834b16eec = L.marker(
+                [41.5036992, -73.9680406],
+                {
+}
+            ).addTo(map_38b64f8c169e28ece6836341b7b957d9);
+        
+    
+        var popup_b2f48c19ef169adcc4a638e6046da0d5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_905d81065368b37055ee537be57e8b88 = $(`<div id="html_905d81065368b37055ee537be57e8b88" style="width: 100.0%; height: 100.0%;"><b>Towne Crier</b><br>Beacon, New York</div>`)[0];
+                popup_b2f48c19ef169adcc4a638e6046da0d5.setContent(html_905d81065368b37055ee537be57e8b88);
+            
+        
+
+        marker_c1ea396dc1c06d2e8e3e0cc834b16eec.bindPopup(popup_b2f48c19ef169adcc4a638e6046da0d5)
+        ;
+
+        
+    
+    
+            marker_c1ea396dc1c06d2e8e3e0cc834b16eec.bindTooltip(
+                `<div>
+                     Towne Crier
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_7cf19cf808cc331523784b911de59e08 = L.marker(
+                [40.7283774, -73.2005608],
+                {
+}
+            ).addTo(map_38b64f8c169e28ece6836341b7b957d9);
+        
+    
+        var popup_b7554085a0ab7618d83b3828b29edd82 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_068536e1c53ab81ad20dfc7d41bcbd0d = $(`<div id="html_068536e1c53ab81ad20dfc7d41bcbd0d" style="width: 100.0%; height: 100.0%;"><b>The Falcon</b><br>Marboro, New York</div>`)[0];
+                popup_b7554085a0ab7618d83b3828b29edd82.setContent(html_068536e1c53ab81ad20dfc7d41bcbd0d);
+            
+        
+
+        marker_7cf19cf808cc331523784b911de59e08.bindPopup(popup_b7554085a0ab7618d83b3828b29edd82)
+        ;
+
+        
+    
+    
+            marker_7cf19cf808cc331523784b911de59e08.bindTooltip(
+                `<div>
+                     The Falcon
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_46768524ebf9f7359680f55191c1a4aa = L.marker(
+                [42.3292525, -73.6156736],
+                {
+}
+            ).addTo(map_38b64f8c169e28ece6836341b7b957d9);
+        
+    
+        var popup_c2e4f943088ab8e7ce02f3b7ac3c4a9f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_46cd4a8120ce1932ea13d87b2cc066e5 = $(`<div id="html_46cd4a8120ce1932ea13d87b2cc066e5" style="width: 100.0%; height: 100.0%;"><b>Old Tone Music Festival</b><br>Ghent, New York</div>`)[0];
+                popup_c2e4f943088ab8e7ce02f3b7ac3c4a9f.setContent(html_46cd4a8120ce1932ea13d87b2cc066e5);
+            
+        
+
+        marker_46768524ebf9f7359680f55191c1a4aa.bindPopup(popup_c2e4f943088ab8e7ce02f3b7ac3c4a9f)
+        ;
+
+        
+    
+    
+            marker_46768524ebf9f7359680f55191c1a4aa.bindTooltip(
+                `<div>
+                     Old Tone Music Festival
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_ba8d8a005230d1fe38cd0af9a44dcf8b = L.marker(
+                [42.653967, -73.9287366],
+                {
+}
+            ).addTo(map_38b64f8c169e28ece6836341b7b957d9);
+        
+    
+        var popup_f36b7f4976a2b39e55afb1189496b64e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_77b17ace09835997ecb72fbf67db5f24 = $(`<div id="html_77b17ace09835997ecb72fbf67db5f24" style="width: 100.0%; height: 100.0%;"><b>Old Songs</b><br>Voorheesville, New York</div>`)[0];
+                popup_f36b7f4976a2b39e55afb1189496b64e.setContent(html_77b17ace09835997ecb72fbf67db5f24);
+            
+        
+
+        marker_ba8d8a005230d1fe38cd0af9a44dcf8b.bindPopup(popup_f36b7f4976a2b39e55afb1189496b64e)
+        ;
+
+        
+    
+    
+            marker_ba8d8a005230d1fe38cd0af9a44dcf8b.bindTooltip(
+                `<div>
+                     Old Songs
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_27dbdd588a052616dc63ef999c28d019 = L.marker(
+                [7.9631123, -11.7636869],
+                {
+}
+            ).addTo(map_38b64f8c169e28ece6836341b7b957d9);
+        
+    
+        var popup_bbe025519e6014109487cfb757ac3d57 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_320884745b50d616e7328890f375d326 = $(`<div id="html_320884745b50d616e7328890f375d326" style="width: 100.0%; height: 100.0%;"><b>Greyfox Bluegrass Festival </b><br>nan, New York</div>`)[0];
+                popup_bbe025519e6014109487cfb757ac3d57.setContent(html_320884745b50d616e7328890f375d326);
+            
+        
+
+        marker_27dbdd588a052616dc63ef999c28d019.bindPopup(popup_bbe025519e6014109487cfb757ac3d57)
+        ;
+
+        
+    
+    
+            marker_27dbdd588a052616dc63ef999c28d019.bindTooltip(
+                `<div>
+                     Greyfox Bluegrass Festival 
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_f1020761e3dd94178691b52d2806b7b1 = L.marker(
+                [40.7127281, -74.0060152],
+                {
+}
+            ).addTo(map_38b64f8c169e28ece6836341b7b957d9);
+        
+    
+        var popup_7e67a19695fb54c4a42c0485e5a615cd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a1e013a74dbdd6941aea5adb0a57ace4 = $(`<div id="html_a1e013a74dbdd6941aea5adb0a57ace4" style="width: 100.0%; height: 100.0%;"><b>Jenkins House Concerts</b><br>New York, New York</div>`)[0];
+                popup_7e67a19695fb54c4a42c0485e5a615cd.setContent(html_a1e013a74dbdd6941aea5adb0a57ace4);
+            
+        
+
+        marker_f1020761e3dd94178691b52d2806b7b1.bindPopup(popup_7e67a19695fb54c4a42c0485e5a615cd)
+        ;
+
+        
+    
+    
+            marker_f1020761e3dd94178691b52d2806b7b1.bindTooltip(
+                `<div>
+                     Jenkins House Concerts
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_f77bde3fd757fe695c3626a209056ce8 = L.marker(
+                [42.7006303, -74.924321],
+                {
+}
+            ).addTo(map_38b64f8c169e28ece6836341b7b957d9);
+        
+    
+        var popup_348eee384f6bf15a9a26144125373a19 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f1701257ff6e2b46468961f485d9fceb = $(`<div id="html_f1701257ff6e2b46468961f485d9fceb" style="width: 100.0%; height: 100.0%;"><b>nan</b><br>Cooperstown, New York</div>`)[0];
+                popup_348eee384f6bf15a9a26144125373a19.setContent(html_f1701257ff6e2b46468961f485d9fceb);
+            
+        
+
+        marker_f77bde3fd757fe695c3626a209056ce8.bindPopup(popup_348eee384f6bf15a9a26144125373a19)
+        ;
+
+        
+    
+    
+            marker_f77bde3fd757fe695c3626a209056ce8.bindTooltip(
+                `<div>
+                     nan
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_0df61aed3a86d4ad4caf1e2765037cb0 = L.marker(
+                [41.2558715, -73.6847453],
+                {
+}
+            ).addTo(map_38b64f8c169e28ece6836341b7b957d9);
+        
+    
+        var popup_e25cd51a05e8d1b77b45661a9cd1f455 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5f66cc8f772a584bc6e75666dc8762c8 = $(`<div id="html_5f66cc8f772a584bc6e75666dc8762c8" style="width: 100.0%; height: 100.0%;"><b>Caramoor</b><br>Katonah, New York</div>`)[0];
+                popup_e25cd51a05e8d1b77b45661a9cd1f455.setContent(html_5f66cc8f772a584bc6e75666dc8762c8);
+            
+        
+
+        marker_0df61aed3a86d4ad4caf1e2765037cb0.bindPopup(popup_e25cd51a05e8d1b77b45661a9cd1f455)
+        ;
+
+        
+    
+    
+            marker_0df61aed3a86d4ad4caf1e2765037cb0.bindTooltip(
+                `<div>
+                     Caramoor
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_65d7eaacdb7f5576861b0d1e38588171 = L.marker(
+                [41.8172207, -71.4085197],
+                {
+}
+            ).addTo(map_38b64f8c169e28ece6836341b7b957d9);
+        
+    
+        var popup_b5d2c6fe7ff6d0b1760e309ddf68eb75 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a20a926416c0b3e88d55fb2c70f5257a = $(`<div id="html_a20a926416c0b3e88d55fb2c70f5257a" style="width: 100.0%; height: 100.0%;"><b>Nick-A-Nees</b><br>Providence, Rhode Island</div>`)[0];
+                popup_b5d2c6fe7ff6d0b1760e309ddf68eb75.setContent(html_a20a926416c0b3e88d55fb2c70f5257a);
+            
+        
+
+        marker_65d7eaacdb7f5576861b0d1e38588171.bindPopup(popup_b5d2c6fe7ff6d0b1760e309ddf68eb75)
+        ;
+
+        
+    
+    
+            marker_65d7eaacdb7f5576861b0d1e38588171.bindTooltip(
+                `<div>
+                     Nick-A-Nees
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_c08ff6d144fd3bd1f9e5b2e0e0aa44c4 = L.marker(
+                [36.9103997, -80.3202074],
+                {
+}
+            ).addTo(map_38b64f8c169e28ece6836341b7b957d9);
+        
+    
+        var popup_04608b7687f6f2036b265061623fedaf = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d7cc3661d940ef6d444b93aa361144c0 = $(`<div id="html_d7cc3661d940ef6d444b93aa361144c0" style="width: 100.0%; height: 100.0%;"><b>Floyd Country Store</b><br>St. Floyd, Virginia</div>`)[0];
+                popup_04608b7687f6f2036b265061623fedaf.setContent(html_d7cc3661d940ef6d444b93aa361144c0);
+            
+        
+
+        marker_c08ff6d144fd3bd1f9e5b2e0e0aa44c4.bindPopup(popup_04608b7687f6f2036b265061623fedaf)
+        ;
+
+        
+    
+    
+            marker_c08ff6d144fd3bd1f9e5b2e0e0aa44c4.bindTooltip(
+                `<div>
+                     Floyd Country Store
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_5e5a515977f18a2393b482b8cc5f97f7 = L.marker(
+                [32.8903768, -80.0743417],
+                {
+}
+            ).addTo(map_38b64f8c169e28ece6836341b7b957d9);
+        
+    
+        var popup_1939f9736e2cb811edb82b97959e5a43 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5de54c4d72755a964d039f2f80d1cad0 = $(`<div id="html_5de54c4d72755a964d039f2f80d1cad0" style="width: 100.0%; height: 100.0%;"><b>nan</b><br>nan, West Virginia</div>`)[0];
+                popup_1939f9736e2cb811edb82b97959e5a43.setContent(html_5de54c4d72755a964d039f2f80d1cad0);
+            
+        
+
+        marker_5e5a515977f18a2393b482b8cc5f97f7.bindPopup(popup_1939f9736e2cb811edb82b97959e5a43)
+        ;
+
+        
+    
+    
+            marker_5e5a515977f18a2393b482b8cc5f97f7.bindTooltip(
+                `<div>
+                     nan
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_1957692ba6c77c8a8e69f9be8ac3fb60 = L.marker(
+                [39.2840138, -80.5084127],
+                {
+}
+            ).addTo(map_38b64f8c169e28ece6836341b7b957d9);
+        
+    
+        var popup_c3acebb7fdc2ef68b765e944ca00842b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_46dc395a2ff42a00de0538c04d5bff36 = $(`<div id="html_46dc395a2ff42a00de0538c04d5bff36" style="width: 100.0%; height: 100.0%;"><b>The Floyd Country Store</b><br>Floyd, West Virginia</div>`)[0];
+                popup_c3acebb7fdc2ef68b765e944ca00842b.setContent(html_46dc395a2ff42a00de0538c04d5bff36);
+            
+        
+
+        marker_1957692ba6c77c8a8e69f9be8ac3fb60.bindPopup(popup_c3acebb7fdc2ef68b765e944ca00842b)
+        ;
+
+        
+    
+    
+            marker_1957692ba6c77c8a8e69f9be8ac3fb60.bindTooltip(
+                `<div>
+                     The Floyd Country Store
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_6881ff75c30849709c1cce3b7739562e = L.marker(
+                [39.1491974, -79.4979721],
+                {
+}
+            ).addTo(map_38b64f8c169e28ece6836341b7b957d9);
+        
+    
+        var popup_6e685cc2494749a3137f06340ef86964 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_09500702814f4e069174d38c34f5e235 = $(`<div id="html_09500702814f4e069174d38c34f5e235" style="width: 100.0%; height: 100.0%;"><b>The Purple Fiddle</b><br>Thomas, West Virginia</div>`)[0];
+                popup_6e685cc2494749a3137f06340ef86964.setContent(html_09500702814f4e069174d38c34f5e235);
+            
+        
+
+        marker_6881ff75c30849709c1cce3b7739562e.bindPopup(popup_6e685cc2494749a3137f06340ef86964)
+        ;
+
+        
+    
+    
+            marker_6881ff75c30849709c1cce3b7739562e.bindTooltip(
+                `<div>
+                     The Purple Fiddle
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_1cc7e77d0f0a8fea57fc3b0d0424a5a8 = L.marker(
+                [40.4561965, -80.0757812],
+                {
+}
+            ).addTo(map_38b64f8c169e28ece6836341b7b957d9);
+        
+    
+        var popup_4bb4ee2376113e8c5ca6f034c8160d0a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_129ec46bd0da74c6e41ff078a8dc3f44 = $(`<div id="html_129ec46bd0da74c6e41ff078a8dc3f44" style="width: 100.0%; height: 100.0%;"><b>Wind Gap Bluegrass Festival</b><br>Windgap, Pennsylvania</div>`)[0];
+                popup_4bb4ee2376113e8c5ca6f034c8160d0a.setContent(html_129ec46bd0da74c6e41ff078a8dc3f44);
+            
+        
+
+        marker_1cc7e77d0f0a8fea57fc3b0d0424a5a8.bindPopup(popup_4bb4ee2376113e8c5ca6f034c8160d0a)
+        ;
+
+        
+    
+    
+            marker_1cc7e77d0f0a8fea57fc3b0d0424a5a8.bindTooltip(
+                `<div>
+                     Wind Gap Bluegrass Festival
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_3cabd695a8c061c70ab0d2b11505307c = L.marker(
+                [41.3359272, -73.8740252],
+                {
+}
+            ).addTo(map_38b64f8c169e28ece6836341b7b957d9);
+        
+    
+        var popup_5c225bb8280a3417450cb81bb9312b12 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7da9e655ed9d204555a2e4ea98d55523 = $(`<div id="html_7da9e655ed9d204555a2e4ea98d55523" style="width: 100.0%; height: 100.0%;"><b>Tompkins Corners Cultural Center</b><br>Putnam Valley, New York</div>`)[0];
+                popup_5c225bb8280a3417450cb81bb9312b12.setContent(html_7da9e655ed9d204555a2e4ea98d55523);
+            
+        
+
+        marker_3cabd695a8c061c70ab0d2b11505307c.bindPopup(popup_5c225bb8280a3417450cb81bb9312b12)
+        ;
+
+        
+    
+    
+            marker_3cabd695a8c061c70ab0d2b11505307c.bindTooltip(
+                `<div>
+                     Tompkins Corners Cultural Center
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_b3b7e9117e028135eb43598ccb673b6e = L.marker(
+                [42.795896, -77.816947],
+                {
+}
+            ).addTo(map_38b64f8c169e28ece6836341b7b957d9);
+        
+    
+        var popup_d6ac7a66a17a3ce190bb4956500208bc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6124630d46246e803dddb23d1268ab03 = $(`<div id="html_6124630d46246e803dddb23d1268ab03" style="width: 100.0%; height: 100.0%;"><b>Healthy Scratch Partners</b><br>Geneseo, New York</div>`)[0];
+                popup_d6ac7a66a17a3ce190bb4956500208bc.setContent(html_6124630d46246e803dddb23d1268ab03);
+            
+        
+
+        marker_b3b7e9117e028135eb43598ccb673b6e.bindPopup(popup_d6ac7a66a17a3ce190bb4956500208bc)
+        ;
+
+        
+    
+    
+            marker_b3b7e9117e028135eb43598ccb673b6e.bindTooltip(
+                `<div>
+                     Healthy Scratch Partners
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_e02a23e06a3bd7cc35c545f84516f652 = L.marker(
+                [41.764582, -72.6908547],
+                {
+}
+            ).addTo(map_38b64f8c169e28ece6836341b7b957d9);
+        
+    
+        var popup_8cea329bcbf6fe47a4b4b4facb514649 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0fbf04367b71d4bbcf7301b30ee70807 = $(`<div id="html_0fbf04367b71d4bbcf7301b30ee70807" style="width: 100.0%; height: 100.0%;"><b>The Sounding Board</b><br>Hartford, Connecticut</div>`)[0];
+                popup_8cea329bcbf6fe47a4b4b4facb514649.setContent(html_0fbf04367b71d4bbcf7301b30ee70807);
+            
+        
+
+        marker_e02a23e06a3bd7cc35c545f84516f652.bindPopup(popup_8cea329bcbf6fe47a4b4b4facb514649)
+        ;
+
+        
+    
+    
+            marker_e02a23e06a3bd7cc35c545f84516f652.bindTooltip(
+                `<div>
+                     The Sounding Board
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_6dcdcccb7cf247a072d8fd2bb8d3b581 = L.marker(
+                [38.0296825, -78.480419],
+                {
+}
+            ).addTo(map_38b64f8c169e28ece6836341b7b957d9);
+        
+    
+        var popup_e99c74cc7326fadcbd760542ab07ad78 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ce7e4fbedbc1aee9d409fd806de3c4ea = $(`<div id="html_ce7e4fbedbc1aee9d409fd806de3c4ea" style="width: 100.0%; height: 100.0%;"><b>The Front Porch</b><br>Charlottesville, Virginia</div>`)[0];
+                popup_e99c74cc7326fadcbd760542ab07ad78.setContent(html_ce7e4fbedbc1aee9d409fd806de3c4ea);
+            
+        
+
+        marker_6dcdcccb7cf247a072d8fd2bb8d3b581.bindPopup(popup_e99c74cc7326fadcbd760542ab07ad78)
+        ;
+
+        
+    
+    
+            marker_6dcdcccb7cf247a072d8fd2bb8d3b581.bindTooltip(
+                `<div>
+                     The Front Porch
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_286de683f9e14aa41aea8dce9fbf4186 = L.marker(
+                [36.5945034, -82.1885212],
+                {
+}
+            ).addTo(map_38b64f8c169e28ece6836341b7b957d9);
+        
+    
+        var popup_d40310b960c2e8a665c94c6311743e0f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_dcf1ccfff4d536e2384ac26252b91057 = $(`<div id="html_dcf1ccfff4d536e2384ac26252b91057" style="width: 100.0%; height: 100.0%;"><b>Farm and Fun Time</b><br>Bristol, Tennessee</div>`)[0];
+                popup_d40310b960c2e8a665c94c6311743e0f.setContent(html_dcf1ccfff4d536e2384ac26252b91057);
+            
+        
+
+        marker_286de683f9e14aa41aea8dce9fbf4186.bindPopup(popup_d40310b960c2e8a665c94c6311743e0f)
+        ;
+
+        
+    
+    
+            marker_286de683f9e14aa41aea8dce9fbf4186.bindTooltip(
+                `<div>
+                     Farm and Fun Time
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_f1508b169dbaa81b3ae6850925943110 = L.marker(
+                [36.2488345, -86.718485],
+                {
+}
+            ).addTo(map_38b64f8c169e28ece6836341b7b957d9);
+        
+    
+        var popup_aaaeee0a4a021fe11b769c3d86911b20 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f33d3b20dd0fb936053375db4c91d85c = $(`<div id="html_f33d3b20dd0fb936053375db4c91d85c" style="width: 100.0%; height: 100.0%;"><b>Dee's Cocktail Lounge</b><br>Nashville, Tennessee</div>`)[0];
+                popup_aaaeee0a4a021fe11b769c3d86911b20.setContent(html_f33d3b20dd0fb936053375db4c91d85c);
+            
+        
+
+        marker_f1508b169dbaa81b3ae6850925943110.bindPopup(popup_aaaeee0a4a021fe11b769c3d86911b20)
+        ;
+
+        
+    
+    
+            marker_f1508b169dbaa81b3ae6850925943110.bindTooltip(
+                `<div>
+                     Dee's Cocktail Lounge
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_6257a3cf04016201dd5f4c66cfbbc8e6 = L.marker(
+                [38.0569838, -84.5188729],
+                {
+}
+            ).addTo(map_38b64f8c169e28ece6836341b7b957d9);
+        
+    
+        var popup_a48dd9d93f400879ce471f07ff3fbb4f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_dbc1a88d2a811c4bf2e4778228f12e9b = $(`<div id="html_dbc1a88d2a811c4bf2e4778228f12e9b" style="width: 100.0%; height: 100.0%;"><b>The Burl</b><br>Lexington, Kentucky</div>`)[0];
+                popup_a48dd9d93f400879ce471f07ff3fbb4f.setContent(html_dbc1a88d2a811c4bf2e4778228f12e9b);
+            
+        
+
+        marker_6257a3cf04016201dd5f4c66cfbbc8e6.bindPopup(popup_a48dd9d93f400879ce471f07ff3fbb4f)
+        ;
+
+        
+    
+    
+            marker_6257a3cf04016201dd5f4c66cfbbc8e6.bindTooltip(
+                `<div>
+                     The Burl
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_b470626f709bfe02afe00072ad358bc0 = L.marker(
+                [38.3505995, -81.6332812],
+                {
+}
+            ).addTo(map_38b64f8c169e28ece6836341b7b957d9);
+        
+    
+        var popup_b826d923afdea885589e8e253118e79f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1da8c416224502fe95658ae427253061 = $(`<div id="html_1da8c416224502fe95658ae427253061" style="width: 100.0%; height: 100.0%;"><b>NPR Mountain Stage</b><br>Charleston, West Virginia</div>`)[0];
+                popup_b826d923afdea885589e8e253118e79f.setContent(html_1da8c416224502fe95658ae427253061);
+            
+        
+
+        marker_b470626f709bfe02afe00072ad358bc0.bindPopup(popup_b826d923afdea885589e8e253118e79f)
+        ;
+
+        
+    
+    
+            marker_b470626f709bfe02afe00072ad358bc0.bindTooltip(
+                `<div>
+                     NPR Mountain Stage
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_a181de7a3fea2ae251eb78ca9c0285a9 = L.marker(
+                [40.2203907, -74.0120817],
+                {
+}
+            ).addTo(map_38b64f8c169e28ece6836341b7b957d9);
+        
+    
+        var popup_6671b014c9255f05e60a572755ec6d44 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_419d60b011d36abb82e7dde79b29d079 = $(`<div id="html_419d60b011d36abb82e7dde79b29d079" style="width: 100.0%; height: 100.0%;"><b>Danny Clinch Gallery</b><br>Asbury Park, New Jersey</div>`)[0];
+                popup_6671b014c9255f05e60a572755ec6d44.setContent(html_419d60b011d36abb82e7dde79b29d079);
+            
+        
+
+        marker_a181de7a3fea2ae251eb78ca9c0285a9.bindPopup(popup_6671b014c9255f05e60a572755ec6d44)
+        ;
+
+        
+    
+    
+            marker_a181de7a3fea2ae251eb78ca9c0285a9.bindTooltip(
+                `<div>
+                     Danny Clinch Gallery
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_1dd72553528ee025223e2e9d64a23783 = L.marker(
+                [36.2440504, -80.8507968],
+                {
+}
+            ).addTo(map_38b64f8c169e28ece6836341b7b957d9);
+        
+    
+        var popup_9adc1b5f4388040d006924674ec313cf = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7796d6a00ae22fd483ad9f0099c69675 = $(`<div id="html_7796d6a00ae22fd483ad9f0099c69675" style="width: 100.0%; height: 100.0%;"><b>Martha Bassett Show</b><br>Elkin, North Carolina</div>`)[0];
+                popup_9adc1b5f4388040d006924674ec313cf.setContent(html_7796d6a00ae22fd483ad9f0099c69675);
+            
+        
+
+        marker_1dd72553528ee025223e2e9d64a23783.bindPopup(popup_9adc1b5f4388040d006924674ec313cf)
+        ;
+
+        
+    
+    
+            marker_1dd72553528ee025223e2e9d64a23783.bindTooltip(
+                `<div>
+                     Martha Bassett Show
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_c51bd0923821d3b5e1f8ef22b181d68b = L.marker(
+                [41.9085192, -72.5412293],
+                {
+}
+            ).addTo(map_38b64f8c169e28ece6836341b7b957d9);
+        
+    
+        var popup_a399a2bbe41072ed76b6881c2d6c35e2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_16b1b7ff7b797ea82979d81f7996d664 = $(`<div id="html_16b1b7ff7b797ea82979d81f7996d664" style="width: 100.0%; height: 100.0%;"><b>Broad Brook Opera House</b><br>Broad Brook, Connecticut</div>`)[0];
+                popup_a399a2bbe41072ed76b6881c2d6c35e2.setContent(html_16b1b7ff7b797ea82979d81f7996d664);
+            
+        
+
+        marker_c51bd0923821d3b5e1f8ef22b181d68b.bindPopup(popup_a399a2bbe41072ed76b6881c2d6c35e2)
+        ;
+
+        
+    
+    
+            marker_c51bd0923821d3b5e1f8ef22b181d68b.bindTooltip(
+                `<div>
+                     Broad Brook Opera House
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_3914badcf481ddbbb35544bc5c3c086b = L.marker(
+                [41.8317624, -73.2251145],
+                {
+}
+            ).addTo(map_38b64f8c169e28ece6836341b7b957d9);
+        
+    
+        var popup_60efbc14cb3726144cd9a08de996d293 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7254f61a7ba28b10d24e75c474f301e8 = $(`<div id="html_7254f61a7ba28b10d24e75c474f301e8" style="width: 100.0%; height: 100.0%;"><b>Falcon Ridge Folk Festival</b><br>Goshen, Connecticut</div>`)[0];
+                popup_60efbc14cb3726144cd9a08de996d293.setContent(html_7254f61a7ba28b10d24e75c474f301e8);
+            
+        
+
+        marker_3914badcf481ddbbb35544bc5c3c086b.bindPopup(popup_60efbc14cb3726144cd9a08de996d293)
+        ;
+
+        
+    
+    
+            marker_3914badcf481ddbbb35544bc5c3c086b.bindTooltip(
+                `<div>
+                     Falcon Ridge Folk Festival
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_0eb1b794214567deff9645040cc70adb = L.marker(
+                [41.7712085, -73.05983],
+                {
+}
+            ).addTo(map_38b64f8c169e28ece6836341b7b957d9);
+        
+    
+        var popup_d96f927f304502687e366a17922a1d98 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5aee7341a314d7c3ffacd88a7564fe38 = $(`<div id="html_5aee7341a314d7c3ffacd88a7564fe38" style="width: 100.0%; height: 100.0%;"><b>Black Bear Music Festival</b><br>Harwinton, Connecticut</div>`)[0];
+                popup_d96f927f304502687e366a17922a1d98.setContent(html_5aee7341a314d7c3ffacd88a7564fe38);
+            
+        
+
+        marker_0eb1b794214567deff9645040cc70adb.bindPopup(popup_d96f927f304502687e366a17922a1d98)
+        ;
+
+        
+    
+    
+            marker_0eb1b794214567deff9645040cc70adb.bindTooltip(
+                `<div>
+                     Black Bear Music Festival
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_bee188ae4b3e83ef9d83ca79ff662d30 = L.marker(
+                [43.8787168, -70.8031838],
+                {
+}
+            ).addTo(map_38b64f8c169e28ece6836341b7b957d9);
+        
+    
+        var popup_929bceeaf6160b1be31128d0869d55b3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_91c43f932b19067347d1f134ba45d920 = $(`<div id="html_91c43f932b19067347d1f134ba45d920" style="width: 100.0%; height: 100.0%;"><b>Thomas Point Bluegrass Festival/Crooked River Gathering</b><br>Hiram, Maine</div>`)[0];
+                popup_929bceeaf6160b1be31128d0869d55b3.setContent(html_91c43f932b19067347d1f134ba45d920);
+            
+        
+
+        marker_bee188ae4b3e83ef9d83ca79ff662d30.bindPopup(popup_929bceeaf6160b1be31128d0869d55b3)
+        ;
+
+        
+    
+    
+            marker_bee188ae4b3e83ef9d83ca79ff662d30.bindTooltip(
+                `<div>
+                     Thomas Point Bluegrass Festival/Crooked River Gathering
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_ab28f94374de5dce1df6f5d1f925ad8d = L.marker(
+                [40.7423309, -75.3112095],
+                {
+}
+            ).addTo(map_38b64f8c169e28ece6836341b7b957d9);
+        
+    
+        var popup_2f67c4d3f50d1f1cac318e18c55d8b68 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b19d43c3349288ad82b0bbc0bdf53200 = $(`<div id="html_b19d43c3349288ad82b0bbc0bdf53200" style="width: 100.0%; height: 100.0%;"><b>Nazarath Center for the Art</b><br>Nazareth, Pennsylvania</div>`)[0];
+                popup_2f67c4d3f50d1f1cac318e18c55d8b68.setContent(html_b19d43c3349288ad82b0bbc0bdf53200);
+            
+        
+
+        marker_ab28f94374de5dce1df6f5d1f925ad8d.bindPopup(popup_2f67c4d3f50d1f1cac318e18c55d8b68)
+        ;
+
+        
+    
+    
+            marker_ab28f94374de5dce1df6f5d1f925ad8d.bindTooltip(
+                `<div>
+                     Nazarath Center for the Art
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_9f9b5dbca37b0c7a33603fdd15e6fe8c = L.marker(
+                [40.4784936, -74.5392118],
+                {
+}
+            ).addTo(map_38b64f8c169e28ece6836341b7b957d9);
+        
+    
+        var popup_d2168fc64a47c12920bad470f498a8e4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_20651e046a674090b20f352ed16dec4c = $(`<div id="html_20651e046a674090b20f352ed16dec4c" style="width: 100.0%; height: 100.0%;"><b>WDVR Radio Station</b><br>Franklin Township, New Jersey</div>`)[0];
+                popup_d2168fc64a47c12920bad470f498a8e4.setContent(html_20651e046a674090b20f352ed16dec4c);
+            
+        
+
+        marker_9f9b5dbca37b0c7a33603fdd15e6fe8c.bindPopup(popup_d2168fc64a47c12920bad470f498a8e4)
+        ;
+
+        
+    
+    
+            marker_9f9b5dbca37b0c7a33603fdd15e6fe8c.bindTooltip(
+                `<div>
+                     WDVR Radio Station
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_c5403b46b4251104c248f59bd7c04b3c = L.marker(
+                [40.3793283, -74.9555667],
+                {
+}
+            ).addTo(map_38b64f8c169e28ece6836341b7b957d9);
+        
+    
+        var popup_11a24fa7c2d4c627a8c287923b25a20c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9a941725dad8a1dd51c49e2f055171fd = $(`<div id="html_9a941725dad8a1dd51c49e2f055171fd" style="width: 100.0%; height: 100.0%;"><b>Dharma Bums</b><br>New Hope, New Jersey</div>`)[0];
+                popup_11a24fa7c2d4c627a8c287923b25a20c.setContent(html_9a941725dad8a1dd51c49e2f055171fd);
+            
+        
+
+        marker_c5403b46b4251104c248f59bd7c04b3c.bindPopup(popup_11a24fa7c2d4c627a8c287923b25a20c)
+        ;
+
+        
+    
+    
+            marker_c5403b46b4251104c248f59bd7c04b3c.bindTooltip(
+                `<div>
+                     Dharma Bums
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_804606ef0430968f38f0ef6637ea7ce2 = L.marker(
+                [40.6105649, -75.3779432],
+                {
+}
+            ).addTo(map_38b64f8c169e28ece6836341b7b957d9);
+        
+    
+        var popup_dd6cf6c69534d011a4c23b361df8b439 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8d942de141e19ec9c9ce7a5b161fe9c5 = $(`<div id="html_8d942de141e19ec9c9ce7a5b161fe9c5" style="width: 100.0%; height: 100.0%;"><b>Godfrey Daniels</b><br>Bethlehem, Pennsylvania</div>`)[0];
+                popup_dd6cf6c69534d011a4c23b361df8b439.setContent(html_8d942de141e19ec9c9ce7a5b161fe9c5);
+            
+        
+
+        marker_804606ef0430968f38f0ef6637ea7ce2.bindPopup(popup_dd6cf6c69534d011a4c23b361df8b439)
+        ;
+
+        
+    
+    
+            marker_804606ef0430968f38f0ef6637ea7ce2.bindTooltip(
+                `<div>
+                     Godfrey Daniels
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_0e17cb49747a5aa9df8bfe87e4ba2d7f = L.marker(
+                [40.3542858, -75.3050079],
+                {
+}
+            ).addTo(map_38b64f8c169e28ece6836341b7b957d9);
+        
+    
+        var popup_c6a57a934579cb1d266ea4f2af0932f4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_aa030a355e550840976dc022ecead2a7 = $(`<div id="html_aa030a355e550840976dc022ecead2a7" style="width: 100.0%; height: 100.0%;"><b>The Sellersville Theater</b><br>Sellersville, Pennsylvania</div>`)[0];
+                popup_c6a57a934579cb1d266ea4f2af0932f4.setContent(html_aa030a355e550840976dc022ecead2a7);
+            
+        
+
+        marker_0e17cb49747a5aa9df8bfe87e4ba2d7f.bindPopup(popup_c6a57a934579cb1d266ea4f2af0932f4)
+        ;
+
+        
+    
+    
+            marker_0e17cb49747a5aa9df8bfe87e4ba2d7f.bindTooltip(
+                `<div>
+                     The Sellersville Theater
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_927d9af8034c39fd737519d5aaf06a0d = L.marker(
+                [40.6022059, -75.4712794],
+                {
+}
+            ).addTo(map_38b64f8c169e28ece6836341b7b957d9);
+        
+    
+        var popup_f9d2bda4c09e9832ab765e2e0cbc7913 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e2bf5261c424a6124dfcb8881c30e74a = $(`<div id="html_e2bf5261c424a6124dfcb8881c30e74a" style="width: 100.0%; height: 100.0%;"><b>Archer Music Hall</b><br>Allentown, Pennsylvania</div>`)[0];
+                popup_f9d2bda4c09e9832ab765e2e0cbc7913.setContent(html_e2bf5261c424a6124dfcb8881c30e74a);
+            
+        
+
+        marker_927d9af8034c39fd737519d5aaf06a0d.bindPopup(popup_f9d2bda4c09e9832ab765e2e0cbc7913)
+        ;
+
+        
+    
+    
+            marker_927d9af8034c39fd737519d5aaf06a0d.bindTooltip(
+                `<div>
+                     Archer Music Hall
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_fb00c4b6896de6fe496c646529c93246 = L.marker(
+                [40.3451668, -75.1263909],
+                {
+}
+            ).addTo(map_38b64f8c169e28ece6836341b7b957d9);
+        
+    
+        var popup_c4fbe9f719dde77651327f0d501f1c93 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0639aaae83e957ea8107995bc1a8f3ba = $(`<div id="html_0639aaae83e957ea8107995bc1a8f3ba" style="width: 100.0%; height: 100.0%;"><b>Bluegrass at The Tile Works</b><br>Bucks County, Pennsylvania</div>`)[0];
+                popup_c4fbe9f719dde77651327f0d501f1c93.setContent(html_0639aaae83e957ea8107995bc1a8f3ba);
+            
+        
+
+        marker_fb00c4b6896de6fe496c646529c93246.bindPopup(popup_c4fbe9f719dde77651327f0d501f1c93)
+        ;
+
+        
+    
+    
+            marker_fb00c4b6896de6fe496c646529c93246.bindTooltip(
+                `<div>
+                     Bluegrass at The Tile Works
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_85b98970b707f137b2f5a56d1202379f = L.marker(
+                [40.2394494, -74.9657987],
+                {
+}
+            ).addTo(map_38b64f8c169e28ece6836341b7b957d9);
+        
+    
+        var popup_5eb64c8495efa06a3720eec083073496 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a85dadd6c76c501482672f9be4c74d6f = $(`<div id="html_a85dadd6c76c501482672f9be4c74d6f" style="width: 100.0%; height: 100.0%;"><b>Bucks County community college</b><br>Bucks County, Pennsylvania</div>`)[0];
+                popup_5eb64c8495efa06a3720eec083073496.setContent(html_a85dadd6c76c501482672f9be4c74d6f);
+            
+        
+
+        marker_85b98970b707f137b2f5a56d1202379f.bindPopup(popup_5eb64c8495efa06a3720eec083073496)
+        ;
+
+        
+    
+    
+            marker_85b98970b707f137b2f5a56d1202379f.bindTooltip(
+                `<div>
+                     Bucks County community college
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+</script>
+</html>
